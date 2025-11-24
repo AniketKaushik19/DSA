@@ -10,7 +10,9 @@ class LeadersInArray{
             res.add(arr[i]);
         }
       }
+      Collections.reverse(res);
       System.out.println(res);
+
       
     }
 }
